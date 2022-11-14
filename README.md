@@ -7,7 +7,7 @@ This map enables you to go to the real world, but at the same time, you want to 
 
 
 ## How we built it
-The system behind Google map API wish I could Wallace or the front in languages for example C++ CSSHTML and JavaScript. scenes from and languages in JavaScript was new to me I had to learn everything from the scratch however I had a fundamental idea for JavaScript so it was not very difficult for me to understand what is going on. however the Google Maps API things was taller than you to me I had to readall the documentation and ask some people for some advices. but I will say it was such an app it was such a nice transfer me to explore the Google my PPI indicating familiar with one of the famous api in the world. 
+The system behind this project is all components of CSS and HTML, also Javascript. This is also because of that google map API requires me to use this new language so I had a chance to explore this new language. Also, I had a chance to play around with google map API where I could edit the map's coloring and customize very small details, for example, land of color and watercolor and text stroke, and so on. 
 
 ## Challenges we ran into
 The challenge I ran into was team communication. originally I was having a project with some other people from colleges. however, due to miscommunication between us, we were not able to complete our project with our team members. So we had to separate our work and I had to do my solo project. 
