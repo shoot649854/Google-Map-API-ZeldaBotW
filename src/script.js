@@ -90,7 +90,8 @@ function tower_marker(LATITUDE, LONGITUDE)
     });
     
     const inforwindow = new google.maps.InfoWindow({
-      content: "To fill in your map in The Legend of Zelda: Breath of the Wild, you must seek out Sheikah Tower locations."
+      content: "<h2> Tower </h2>" + 
+      "To fill in your map in The Legend of Zelda: Breath of the Wild, you must seek out Sheikah Tower locations."
     })
     towerMarker.addListener("click", () => {
       inforwindow.open(map, towerMarker);
@@ -112,7 +113,7 @@ function gardian_marker(LATITUDE, LONGITUDE)
     });
     
     const inforwindow = new google.maps.InfoWindow({
-      content: "Guardians are recurring Enemies "
+      content: "<h2> Guardian </h2>"  + "Guardians are recurring Enemies "
     })
     gardianMarker.addListener("click", () => {
       inforwindow.open(map, gardianMarker);
@@ -134,7 +135,7 @@ function inn_marker(LATITUDE, LONGITUDE)
     });
     
     const inforwindow = new google.maps.InfoWindow({
-      content: "An Inn is a location from The Legend of Zelda: \nBreath of the Wild. Inns can be found in villages and towns, as well as the many stables found throughout Hyrule."
+      content: "<h2> Inn </h2>" + "An Inn is a location from The Legend of Zelda: \nBreath of the Wild. Inns can be found in villages and towns, as well as the many stables found throughout Hyrule."
     })
     innMarker.addListener("click", () => {
       inforwindow.open(map, innMarker);
@@ -156,7 +157,7 @@ function lynel_marker(LATITUDE, LONGITUDE)
     });
     
     const inforwindow = new google.maps.InfoWindow({
-      content: "A Lynel is one of the centaur-like monsters "
+      content: "<h2> Lynel </h2>" + "A Lynel is one of the centaur-like monsters "
     })
     lynelMarker.addListener("click", () => {
       inforwindow.open(map, lynelMarker);
@@ -178,7 +179,9 @@ function village_marker(LATITUDE, LONGITUDE)
     });
     
     const inforwindow = new google.maps.InfoWindow({
-      content: "Village"
+      content: "<h2> Village </h2>" + 
+      "a bustling, Ancient Japanese-inspired town located in the Dueling Peaks Region. It's most likely the first town you visit." + 
+      "There is also a nearby shrine, known as Ta'loh Naeg Shrine and a mountain passage to the Great Fairy Fountain."
     })
     villageMarker.addListener("click", () => {
       inforwindow.open(map, villageMarker);
@@ -200,7 +203,8 @@ function molduga_marker(LATITUDE, LONGITUDE)
     });
     
     const inforwindow = new google.maps.InfoWindow({
-      content: "Sword"
+      content:  "<h2> Sword </h2>" + 
+      " fictional divine magic sword in Nintendo's The Legend of Zelda series. It is also known as The Blade of Evil's Bane, the Sword of Resurrection, the Sword that Seals the Darkness, and the Sacred Sword"
     })
     moldugaMarker.addListener("click", () => {
       inforwindow.open(map, moldugaMarker);
@@ -222,7 +226,8 @@ function treasure_marker(LATITUDE, LONGITUDE)
     });
     
     const inforwindow = new google.maps.InfoWindow({
-      content: "A Treasure Chest is where weapons, materials, \nand rupees are hidden throughout \nHyrule in The Legend of Zelda: Breath of the Wild."
+      content:  "<h2> Treasure Chest </h2>" + 
+      "A Treasure Chest is where weapons, materials, \nand rupees are hidden throughout \nHyrule in The Legend of Zelda: Breath of the Wild."
     })
     treasureMarker.addListener("click", () => {
       inforwindow.open(map, treasureMarker);
