@@ -8,14 +8,25 @@
     <link rel="stylesheet" href="/Users/shotomorisaki/programming/Google-Map-API-ZeldaBotW/src/style.css">
 </head>
 <body>
-    <h1>Hylue Map</h1>
-    <div id="map"></div>
+    <div id="floating-panel">
+        <!-- <input id="hide-markers" type="button" value="Hide Markers" /> -->
+        <input id="show-markers" type="button" value="Show Mission" />
+        <input id="delete-markers-1" type="button" value="Complete Mission 1" />
+        <input id="delete-markers-2" type="button" value="Complete Mission 2" />
+        <input id="delete-markers-3" type="button" value="Complete Mission 3" />
+        <input id="delete-markers-4" type="button" value="Complete Mission 4" />
+        <input id="delete-markers-5" type="button" value="Complete Mission 5" />
+    </div>
+    <div id="map">
 
-    <script src="/Users/shotomorisaki/programming/Google-Map-API-ZeldaBotW/src/script.js"></script>
-    <script 
-        async defer src="https://maps.googleapis.com/maps/api/js?
-        key=AIzaSyC0r6H3EIK7hH4I5G9gjtPJpuDX_MBdFFc&callback=initMap&map_ids=c58801b525aee8b5&libraries=places&v=weekly">
-    </script>
-      
+        <script src="/Users/shotomorisaki/programming/Google-Map-API-ZeldaBotW/src/script.js"></script>
+        <script 
+            async defer src="https://maps.googleapis.com/maps/api/js?
+            key=AIzaSyC0r6H3EIK7hH4I5G9gjtPJpuDX_MBdFFc&callback=initMap&map_ids=c58801b525aee8b5&libraries=places&v=weekly">
+        </script>
+    </div>
+    <!-- <h1 src="/Users/shotomorisaki/programming/Google-Map-API-ZeldaBotW/images/threeHearts.png">
+    <h1 class="centeredt">Hylye Map</h1> -->
+
 </body>
 </html>
